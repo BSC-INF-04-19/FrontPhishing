@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+
+.App{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 101, 202);
+}
+
+.form-inner, .form-group, .form0group{
+    display: flex;
+    flex-direction: column;
+}
+ form {
+    padding: 5rem;
+    border: 1px solid white;
+}
+label{
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+.submit{
+border: none;
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
